@@ -2,12 +2,12 @@
 
 Dokku itself is built out of plugins and uses [plugn](https://github.com/dokku/plugn) for its plugin system. In essence a plugin is a collection of scripts that will be run based on naming convention.
 
-Let's take a quick look at the current dokku nginx plugin that's shipped with dokku by default.
+Let's take a quick look at the current Dokku nginx plugin that's shipped with Dokku by default.
 
     nginx-vhosts/
     ├── plugin.toml  # plugin metadata
     ├── commands     # contains additional commands
-    ├── install      # runs on dokku installation
+    ├── install      # runs on Dokku installation
     └── post-deploy  # runs after an app is deployed
 
 ## Installing a plugin
@@ -20,7 +20,7 @@ Let's take a quick look at the current dokku nginx plugin that's shipped with do
 
 ## Official Plugins (Beta)
 
-The following plugins are available and provided by dokku maintainers. Where noted, these plugins should be considered beta software and may not have been used as thoroughly as community plugins. Please file issues against their respective issue trackers.
+The following plugins are available and provided by Dokku maintainers. Where noted, these plugins should be considered beta software and may not have been used as thoroughly as community plugins. Please file issues against their respective issue trackers.
 
 | Plugin                                                                                            | Author                | Compatibility         |
 | ------------------------------------------------------------------------------------------------- | --------------------- | --------------------- |
@@ -43,7 +43,7 @@ The following plugins are available and provided by dokku maintainers. Where not
 
 ## Community plugins
 
-Note: The following plugins have been supplied by our community and may not have been tested by dokku maintainers.
+Note: The following plugins have been supplied by our community and may not have been tested by Dokku maintainers.
 
 [256dpi]: https://github.com/256dpi
 [abossard]: https://github.com/dudagroup
@@ -182,7 +182,7 @@ Note: The following plugins have been supplied by our community and may not have
 | [Docker Direct](https://github.com/heichblatt/dokku-docker-direct)                                | [heichblatt][]        |                       |
 | [Dokku Copy App Config Files](https://github.com/alexkruegger/dokku-app-configfiles)              | [alexkruegger][]      | Compatible with 0.3.17+ |
 | [Dokku Copy App Config Files](https://github.com/heichblatt/dokku-supply-config)                  | [heichblatt][]        |                       |
-| [Dokku Name](https://github.com/alex-sherwin/dokku-name)                                          | [alex-sherwin][]      | dokku >= [c77cbf1][]  |
+| [Dokku Name](https://github.com/alex-sherwin/dokku-name)                                          | [alex-sherwin][]      | Dokku >= [c77cbf1][]  |
 | [Dokku Registry](https://github.com/agco-adm/dokku-registry)<sup>1</sup>                          | [agco-adm][]          | 0.4.0+                |
 | [Dokku Require](https://github.com/crisward/dokku-require)<sup>2</sup>                            | [crisward][]          | 0.4.0+                |
 | [git rev-parse HEAD in env](https://github.com/cjblomqvist/dokku-git-rev)                         | [cjblomqvist][]       | 0.4.0+                |
